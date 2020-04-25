@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "hashicorp-workshop"
+    organization = "akentosh"
     workspaces {
-      name = "YOURWORKSPACE"
+      name = "azure-demo"
     }
   }
 }
